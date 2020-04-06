@@ -14,7 +14,7 @@
                     <span>Ristorante</span>
                 </a>
                 <ul class="sub">
-                    <li><a href="general.html">Info</a></li>
+                    <li><a href="/admin/ristorante">Info</a></li>
                     <li><a href="buttons.html">Gallery</a></li>
                     <li><a href="panels.html">Dishes</a></li>
                 </ul>

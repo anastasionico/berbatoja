@@ -41,20 +41,20 @@
       @include('admin.layout.footer')
   </section>
   <!-- js placed at the end of the document so the pages load faster -->
-  <script src="lib/admin/jquery/jquery.min.js"></script>
+  <script src="/lib/admin/jquery/jquery.min.js"></script>
 
-  <script src="lib/admin/bootstrap/js/bootstrap.min.js"></script>
-  <script class="include" type="text/javascript" src="lib/admin/jquery.dcjqaccordion.2.7.js"></script>
-  <script src="lib/admin/jquery.scrollTo.min.js"></script>
-  <script src="lib/admin/jquery.nicescroll.js" type="text/javascript"></script>
-  <script src="lib/admin/jquery.sparkline.js"></script>
+  <script src="/lib/admin/bootstrap/js/bootstrap.min.js"></script>
+  <script class="include" type="text/javascript" src="/lib/admin/jquery.dcjqaccordion.2.7.js"></script>
+  <script src="/lib/admin/jquery.scrollTo.min.js"></script>
+  <script src="/lib/admin/jquery.nicescroll.js" type="text/javascript"></script>
+  <script src="/lib/admin/jquery.sparkline.js"></script>
   <!--common script for all pages-->
-  <script src="lib/admin/common-scripts.js"></script>
-  <script type="text/javascript" src="lib/admin/gritter/js/jquery.gritter.js"></script>
-  <script type="text/javascript" src="lib/admin/gritter-conf.js"></script>
+  <script src="/lib/admin/common-scripts.js"></script>
+  <script type="text/javascript" src="/lib/admin/gritter/js/jquery.gritter.js"></script>
+  <script type="text/javascript" src="/lib/admin/gritter-conf.js"></script>
   <!--script for this page-->
-  <script src="lib/admin/sparkline-chart.js"></script>
-  <script src="lib/admin/zabuto_calendar.js"></script>
+  <script src="/lib/admin/sparkline-chart.js"></script>
+  <script src="/lib/admin/zabuto_calendar.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
       var unique_id = $.gritter.add({
