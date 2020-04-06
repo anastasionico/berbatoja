@@ -21,6 +21,8 @@ Route::get('/admin', function () {
     return view('admin.index');
 });
 
+Route::get('/admin/ristorante', 'RistoranteController@index');
+
 
 Auth::routes();
 

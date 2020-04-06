@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94cff908-090f-4139-91ab-8474679c9526" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/views/admin/layout/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/views/admin/layout/aside.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/views/admin/layout/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/views/admin/layout/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/views/admin/ristorante/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/admin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/admin/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +126,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ZmB2JcUNloS71l5aCYeBmX4vth" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -154,6 +161,7 @@
       <workItem from="1585434189758" duration="597000" />
       <workItem from="1585604822029" duration="5506000" />
       <workItem from="1585692661397" duration="1556000" />
+      <workItem from="1586207446778" duration="5589000" />
     </task>
     <servers />
   </component>
@@ -165,10 +173,14 @@
       <screen x="45" y="27" width="1321" height="741" />
     </state>
     <state x="494" y="84" width="412" height="624" key="#com.intellij.ide.util.MemberChooser/45.27.1321.741@45.27.1321.741" timestamp="1585608387492" />
-    <state x="194" y="31" key="SettingsEditor" timestamp="1585693094733">
+    <state x="501" y="322" width="399" height="149" key="NewPhpFileDialog" timestamp="1586212666493">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
-    <state x="194" y="31" key="SettingsEditor/45.27.1321.741@45.27.1321.741" timestamp="1585693094733" />
+    <state x="501" y="322" width="399" height="149" key="NewPhpFileDialog/45.27.1321.741@45.27.1321.741" timestamp="1586212666493" />
+    <state x="194" y="31" key="SettingsEditor" timestamp="1586207630852">
+      <screen x="45" y="27" width="1321" height="741" />
+    </state>
+    <state x="194" y="31" key="SettingsEditor/45.27.1321.741@45.27.1321.741" timestamp="1586207630852" />
     <state x="361" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1585692663782">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
