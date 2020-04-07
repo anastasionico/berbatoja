@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94cff908-090f-4139-91ab-8474679c9526" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../resources/views/admin/ristorante/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/admin/layout/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/admin/layout/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/admin/layout/aside.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/admin/layout/aside.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/RistoranteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/Http/Controllers/RistoranteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/admin/ristorante/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/admin/ristorante/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,6 +159,7 @@
       <workItem from="1585604822029" duration="5506000" />
       <workItem from="1585692661397" duration="1556000" />
       <workItem from="1586207446778" duration="5902000" />
+      <workItem from="1586292126149" duration="8208000" />
     </task>
     <servers />
   </component>
@@ -176,10 +179,10 @@
       <screen x="45" y="27" width="1321" height="741" />
     </state>
     <state x="194" y="31" key="SettingsEditor/45.27.1321.741@45.27.1321.741" timestamp="1586207630852" />
-    <state x="361" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1585692663782">
+    <state x="361" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1586292135345">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
-    <state x="361" y="224" key="com.intellij.ide.util.TipDialog/45.27.1321.741@45.27.1321.741" timestamp="1585692663782" />
+    <state x="361" y="224" key="com.intellij.ide.util.TipDialog/45.27.1321.741@45.27.1321.741" timestamp="1586292135345" />
     <state x="351" y="135" width="709" height="522" key="find.popup" timestamp="1586213663669">
       <screen x="45" y="27" width="1321" height="741" />
     </state>

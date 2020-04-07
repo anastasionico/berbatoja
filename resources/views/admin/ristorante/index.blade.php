@@ -5,7 +5,16 @@
       <section class="wrapper">
         <div class="row">
           <div class="col-lg-9 main-chart">
-              <h1>hello world</h1>
+              <h1>Ristorante</h1>
+              <h3>{{ $ristorante->description }}</h3>
+              <p><b>titolo</b> {{ $ristorante->seo_title }}</p>
+              <p><b>descrizione</b> {{ $ristorante->seo_description }}</p>
+              <p><b>keywords</b> {{ $ristorante->seo_keywords }}</p>
+
+              <a href="/admin/ristorante/edit">
+                  <button type="button" class="btn btn-primary">Update</button>
+              </a>
+
           </div>
           <!-- /col-lg-3 -->
         </div>

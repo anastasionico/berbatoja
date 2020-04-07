@@ -22,6 +22,8 @@ Route::get('/admin', function () {
 });
 
 Route::get('/admin/ristorante', 'RistoranteController@index');
+Route::get('/admin/ristorante/edit', 'RistoranteController@edit');
+Route::patch('/admin/ristorante/{ristorante}', 'RistoranteController@update');
 
 
 Auth::routes();
