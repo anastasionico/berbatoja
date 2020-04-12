@@ -25,6 +25,10 @@ Route::get('/admin/ristorante', 'RistoranteController@index');
 Route::get('/admin/ristorante/edit', 'RistoranteController@edit');
 Route::patch('/admin/ristorante/{ristorante}', 'RistoranteController@update');
 
+Route::get('/admin/allergie', 'AllergiesController@index');
+Route::get('/admin/allergie/create', 'AllergiesController@create');
+Route::post('/admin/allergie', 'AllergiesController@store');
+
 
 Auth::routes();
 

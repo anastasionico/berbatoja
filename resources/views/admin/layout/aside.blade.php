@@ -20,7 +20,7 @@
                 </ul>
             </li>
             <li class="sub-menu">
-                <a href="javascript:;">
+                <a href="/admin/allergie">
                     <i class="fa fa-flash"></i>
                     <span>Allergies</span>
                 </a>
