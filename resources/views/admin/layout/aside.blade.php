@@ -26,7 +26,7 @@
                 </a>
             </li>
             <li class="sub-menu">
-                <a href="javascript:;">
+                <a href="/admin/diete">
                     <i class="fa fa-sun-o"></i>
                     <span>Diets</span>
                 </a>

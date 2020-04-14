@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94cff908-090f-4139-91ab-8474679c9526" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../resources/views/admin/ristorante/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/views/admin/diete/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/views/admin/diete/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/views/admin/diete/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/RistoranteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/Http/Controllers/RistoranteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/admin/ristorante/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/admin/ristorante/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/admin/allergies/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/admin/allergies/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/admin/allergies/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/admin/allergies/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/admin/layout/aside.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/admin/layout/aside.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,9 +19,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -129,15 +131,20 @@
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../resources/views/admin" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../resources/views/admin" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -159,30 +166,32 @@
       <workItem from="1585604822029" duration="5506000" />
       <workItem from="1585692661397" duration="1556000" />
       <workItem from="1586207446778" duration="5902000" />
-      <workItem from="1586292126149" duration="8208000" />
+      <workItem from="1586292126149" duration="8807000" />
+      <workItem from="1586690281461" duration="3460000" />
+      <workItem from="1586902637079" duration="4426000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="494" y="84" width="412" height="624" key="#com.intellij.ide.util.MemberChooser" timestamp="1585608387492">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
     <state x="494" y="84" width="412" height="624" key="#com.intellij.ide.util.MemberChooser/45.27.1321.741@45.27.1321.741" timestamp="1585608387492" />
-    <state x="501" y="322" width="399" height="149" key="NewPhpFileDialog" timestamp="1586212666493">
+    <state x="501" y="322" width="399" height="149" key="NewPhpFileDialog" timestamp="1586904468515">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
-    <state x="501" y="322" width="399" height="149" key="NewPhpFileDialog/45.27.1321.741@45.27.1321.741" timestamp="1586212666493" />
+    <state x="501" y="322" width="399" height="149" key="NewPhpFileDialog/45.27.1321.741@45.27.1321.741" timestamp="1586904468515" />
     <state x="194" y="31" key="SettingsEditor" timestamp="1586207630852">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
     <state x="194" y="31" key="SettingsEditor/45.27.1321.741@45.27.1321.741" timestamp="1586207630852" />
-    <state x="361" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1586292135345">
+    <state x="361" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1586690284605">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
-    <state x="361" y="224" key="com.intellij.ide.util.TipDialog/45.27.1321.741@45.27.1321.741" timestamp="1586292135345" />
+    <state x="361" y="224" key="com.intellij.ide.util.TipDialog/45.27.1321.741@45.27.1321.741" timestamp="1586690284605" />
     <state x="351" y="135" width="709" height="522" key="find.popup" timestamp="1586213663669">
       <screen x="45" y="27" width="1321" height="741" />
     </state>

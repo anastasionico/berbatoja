@@ -6,8 +6,8 @@
             <div class="row">
                 <div class="col-lg-9 main-chart">
                     <div class="col-lg-9">
-                        <h1>Allergie</h1>
-                        <a href="/admin/allergie/create" >
+                        <h1>Diete</h1>
+                        <a href="/admin/diete/create" >
                             <button
                                 type="button"
                                 style="margin-bottom: 2rem"
@@ -17,19 +17,19 @@
                         </a>
                     </div>
 
-                    @foreach($allergies as $allergy)
+                    @foreach($diets as $diet)
                         <div class="col-lg-4 col-md-4 col-sm-4 mb">
                             <div class="content-panel pn">
                                 <div id="profile-02">
                                     <div class="user">
-                                        <h4 style="color: #22242a">{{ $allergy->name }}</h4>
+                                        <h4 style="color: #22242a">{{ $diet->name }}</h4>
                                     </div>
                                 </div>
                                 <div class="centered">
-                                    <a href="/admin/allergie/{{ $allergy->id }}/edit" class="btn btn-info d-inline-block">Aggiorna</a>
+                                    <a href="/admin/diete/{{ $diet->id }}/edit" class="btn btn-info d-inline-block">Aggiorna</a>
                                     <form
                                         method="POST"
-                                        action="/admin/allergie/{{ $allergy->id }}"
+                                        action="/admin/diete/{{ $diet->id }}"
                                         style="display:inline-block;">
                                         @csrf
                                         @method('DELETE')

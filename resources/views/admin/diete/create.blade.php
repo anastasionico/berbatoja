@@ -5,9 +5,9 @@
       <section class="wrapper">
         <div class="row">
           <div class="col-lg-9 main-chart">
-              <h1>Aggiungi Allergia</h1>
+              <h1>Aggiungi Dieta</h1>
 
-              <form action="/admin/allergie/" method="post">
+              <form action="/admin/diete/" method="post">
                   @method('POST')
                   @csrf()
 
