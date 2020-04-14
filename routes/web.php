@@ -27,6 +27,9 @@ Route::patch('/admin/ristorante/{ristorante}', 'RistoranteController@update');
 
 Route::get('/admin/allergie', 'AllergiesController@index');
 Route::get('/admin/allergie/create', 'AllergiesController@create');
+Route::get('/admin/allergie/edit/{allergy}', 'AllergiesController@edit');
+Route::put('/admin/allergie/{allergy}', 'AllergiesController@update');
+Route::delete('/admin/allergie/{allergy}', 'AllergiesController@destroy');
 Route::post('/admin/allergie', 'AllergiesController@store');
 
 
