@@ -15,6 +15,7 @@ class CreateRistoranteDishesTable extends Migration
     {
         Schema::create('ristorante_dishes', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
             $table->string('img');
             $table->text('description');
             $table->string('ingredients');

@@ -15,8 +15,8 @@
                 </a>
                 <ul class="sub">
                     <li><a href="/admin/ristorante">Info</a></li>
-                    <li><a href="buttons.html">Gallery</a></li>
-                    <li><a href="panels.html">Dishes</a></li>
+                    <li><a href="/admin/ristorante_gallery">Gallery</a></li>
+                    <li><a href="/admin/ristorante_piatti">Dishes</a></li>
                 </ul>
             </li>
             <li class="sub-menu">

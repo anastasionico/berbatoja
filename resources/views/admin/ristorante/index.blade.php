@@ -11,9 +11,7 @@
               <p><b>descrizione</b> {{ $ristorante->seo_description }}</p>
               <p><b>keywords</b> {{ $ristorante->seo_keywords }}</p>
 
-              <a href="/admin/ristorante/edit">
-                  <button type="button" class="btn btn-primary">Update</button>
-              </a>
+              a
 
           </div>
           <!-- /col-lg-3 -->
