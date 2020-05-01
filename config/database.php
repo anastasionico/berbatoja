@@ -50,7 +50,7 @@ return [
 
         'mysql' => [
             'port' => env('DB_PORT', '3306'),
-            'host' => env('RDS_HOSTNAME', 'localhost'),
+            'host' => env('RDS_HOSTNAME', '127.0.0.1'),
             'database' => env('RDS_DB_NAME', 'berbatoja'),
             'username' => env('RDS_USERNAME', 'root'),
             'password' => env('RDS_PASSWORD', ''),
