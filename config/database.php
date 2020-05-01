@@ -1,9 +1,9 @@
 <?php
 
-define('RDS_HOSTNAME', $_SERVER['RDS_HOSTNAME']);
-define('RDS_USERNAME', $_SERVER['RDS_USERNAME']);
-define('RDS_PASSWORD', $_SERVER['RDS_PASSWORD']);
-define('RDS_DB_NAME', $_SERVER['RDS_DB_NAME']);
+if (isset($_SERVER['RDS_HOSTNAME'])) { define('RDS_HOSTNAME', $_SERVER['RDS_HOSTNAME']); }
+if (isset($_SERVER['RDS_USERNAME'])) { define('RDS_USERNAME', $_SERVER['RDS_USERNAME']); }
+if (isset($_SERVER['RDS_PASSWORD'])) { define('RDS_PASSWORD', $_SERVER['RDS_PASSWORD']); }
+if (isset($_SERVER['RDS_DB_NAME'])) { define('RDS_DB_NAME', $_SERVER['RDS_DB_NAME']); }
 
 use Illuminate\Support\Str;
 
@@ -49,14 +49,14 @@ return [
         ],
 
         'mysql' => [
+            'port' => env('DB_PORT', '3306'),
+            'host' => env('RDS_HOSTNAME', 'localhost'),
+            'database' => env('RDS_DB_NAME', 'berbatoja'),
+            'username' => env('RDS_USERNAME', 'root'),
+            'password' => env('RDS_PASSWORD', ''),
+            'unix_socket' => env('DB_SOCKET', ''),
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => RDS_HOSTNAME,
-            'port' => env('DB_PORT', '3306'),
-            'database' => RDS_DB_NAME,
-            'username' => RDS_USERNAME,
-            'password' => RDS_PASSWORD,
-            'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
