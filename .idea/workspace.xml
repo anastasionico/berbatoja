@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94cff908-090f-4139-91ab-8474679c9526" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../resources/views/admin/diete/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../resources/views/admin/diete/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../resources/views/admin/diete/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/admin/allergies/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/admin/allergies/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/admin/allergies/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/admin/allergies/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/admin/layout/aside.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/admin/layout/aside.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ebextensions/init.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/berbatoja.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/berbatoja.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +16,12 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -137,7 +136,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../resources/views/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -169,13 +168,19 @@
       <workItem from="1586292126149" duration="8807000" />
       <workItem from="1586690281461" duration="3460000" />
       <workItem from="1586902637079" duration="4426000" />
+      <workItem from="1588316789434" duration="35000" />
+      <workItem from="1588318641359" duration="1054000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="868" y="261" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588319586478">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="868" y="261" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1588319586478" />
     <state x="494" y="84" width="412" height="624" key="#com.intellij.ide.util.MemberChooser" timestamp="1585608387492">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
